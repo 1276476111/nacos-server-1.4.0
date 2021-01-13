@@ -1,0 +1,13 @@
+2021-01-04 09:57:43,089|192.168.0.16|stock-dev|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 09:57:43,100|192.168.0.16|stock-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 09:59:57,084|192.168.0.16|order-dev.yml|DEFAULT_GROUP|2619670c-d55b-407d-bda5-e0f510a37fe6|null|1609725596976|192.168.0.16|persist|pub|-1|1c010d96274e8d90d7ec56cd9cb07c9e
+2021-01-04 09:59:57,215|192.168.0.16|order-dev.yml|DEFAULT_GROUP|2619670c-d55b-407d-bda5-e0f510a37fe6|null|1609725596976|192.168.0.16|notify|ok|237|192.168.0.16:8848
+2021-01-04 09:59:57,222|192.168.0.16|order-dev.yml|DEFAULT_GROUP|2619670c-d55b-407d-bda5-e0f510a37fe6|null|1609725596976|192.168.0.16|dump|ok|246|572
+2021-01-04 10:00:03,663|192.168.0.16|stock-dev|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 10:00:03,671|192.168.0.16|stock-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 10:00:29,657|192.168.0.16|stock-dev|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 10:00:29,663|192.168.0.16|stock-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 10:05:08,958|192.168.0.16|stock-dev|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 10:05:08,964|192.168.0.16|stock-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 10:06:44,223|192.168.0.16|stock-dev|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-01-04 10:06:44,229|192.168.0.16|stock-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1

@@ -1,0 +1,46 @@
+2021-01-09 14:00:52,773 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@stock-service
+
+2021-01-09 14:17:10,155 INFO raft peers changed: [Member{ip='192.168.0.16', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2021-01-09 14:17:10,185 INFO initializing Raft sub-system
+
+2021-01-09 14:17:10,186 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2021-01-09 14:17:10,192 INFO cache loaded, datum count: 0, current term: 0
+
+2021-01-09 14:17:10,192 INFO finish to load data from disk, cost: 7 ms.
+
+2021-01-09 14:17:10,204 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-01-09 14:17:12,253 INFO snapshot load from : D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_66\naming_persistent
+
+2021-01-09 14:17:12,259 INFO raft peers changed: [Member{ip='192.168.0.16', port=8848, state=UP, extendInfo={adWeight=0, lastRefreshTime=1610173032258, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@167144cd, raftPort=7848, site=unknow, version=1.4.0, weight=1}}]
+
+2021-01-09 14:17:13,084 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-01-09 14:17:13,100 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-01-09 14:17:15,153 WARN start to close old raft protocol!!!
+
+2021-01-09 14:17:15,153 WARN stop old raft protocol task for notifier
+
+2021-01-09 14:17:15,153 WARN stop old raft protocol task for master task
+
+2021-01-09 14:17:15,153 WARN stop old raft protocol task for heartbeat task
+
+2021-01-09 14:17:15,153 WARN clean old cache datum for old raft
+
+2021-01-09 14:17:15,153 WARN start to close old raft protocol!!!
+
+2021-01-09 14:17:15,153 WARN stop old raft protocol task for notifier
+
+2021-01-09 14:17:15,153 WARN stop old raft protocol task for master task
+
+2021-01-09 14:17:15,153 WARN stop old raft protocol task for heartbeat task
+
+2021-01-09 14:17:15,153 WARN clean old cache datum for old raft
+
+2021-01-09 14:17:15,153 WARN start to move old raft protocol metadata
+
+2021-01-09 14:17:16,252 INFO add listener: com.alibaba.nacos.naming.iplist.public##SEATA_GROUP@@seata-server
+

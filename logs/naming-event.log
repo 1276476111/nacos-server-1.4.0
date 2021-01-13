@@ -1,0 +1,10 @@
+2021-01-09 13:58:27,686 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610171890193
+
+2021-01-09 13:58:42,697 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-09 13:58:42,697 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-09 14:17:16,315 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.0.16:8091:unknown:default_1.0_true_false_default]
+
+2021-01-09 14:17:16,317 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.0.16:8091_true,
+

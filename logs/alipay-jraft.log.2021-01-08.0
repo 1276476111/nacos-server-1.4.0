@@ -1,0 +1,158 @@
+2021-01-08 09:57:36,799 INFO Node <naming_persistent_service/192.168.0.16:7848> shutdown, currTerm=6 state=STATE_LEADER.
+
+2021-01-08 09:57:36,803 INFO Fail to find the next candidate.
+
+2021-01-08 09:57:36,803 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2021-01-08 09:57:36,809 INFO Save raft meta, path=D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\meta-data, term=6, votedFor=192.168.0.16:7848, cost time=3 ms
+
+2021-01-08 09:57:36,809 INFO Shutting down FSMCaller...
+
+2021-01-08 09:57:36,810 INFO onShutdown.
+
+2021-01-08 09:57:36,811 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@17b1c88e[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-01-08 09:57:36,811 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@52ed088b[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-01-08 09:57:36,812 INFO The number of active nodes decrement to 0.
+
+2021-01-08 09:57:36,814 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@59864023[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1].
+
+2021-01-08 09:57:36,814 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service/192.168.0.16:7848>'}.
+
+2021-01-08 09:57:36,815 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@37f55835[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1].
+
+2021-01-08 09:57:36,815 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service/192.168.0.16:7848>'}.
+
+2021-01-08 09:57:36,816 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@327eaa1e[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 54917].
+
+2021-01-08 09:57:36,816 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service/192.168.0.16:7848>'}.
+
+2021-01-08 09:57:36,818 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@781b280d[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 76].
+
+2021-01-08 09:57:36,818 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service/192.168.0.16:7848>'}.
+
+2021-01-08 09:57:36,818 INFO Node <naming_persistent_service/192.168.0.16:7848> shutdown, currTerm=6 state=STATE_SHUTTING.
+
+2021-01-08 09:57:36,818 INFO Stop the RaftGroupService successfully.
+
+2021-01-08 09:57:36,819 INFO Shutdown managed channel: 192.168.0.16:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=4, target=192.168.0.16:7848}}.
+
+2021-01-08 09:57:36,824 INFO Shutdown managed channel: 192.168.0.16:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=9, target=192.168.0.16:7848}}.
+
+2021-01-08 09:57:36,825 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@7798a4d5[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2].
+
+2021-01-08 09:57:36,829 INFO Connection disconnected: /192.168.0.16:63547
+
+2021-01-08 09:57:36,831 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@23eba57f[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 32070].
+
+2021-01-08 10:08:04,804 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2021-01-08 10:08:04,914 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2021-01-08 10:08:06,475 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2021-01-08 10:08:06,479 INFO The number of active nodes increment to 1.
+
+2021-01-08 10:08:06,676 INFO Starts FSMCaller successfully.
+
+2021-01-08 10:08:06,691 INFO Loading snapshot, meta=last_included_index: 50
+last_included_term: 6
+peers: "192.168.0.16:7848"
+.
+
+2021-01-08 10:08:06,780 INFO Node <naming_persistent_service/192.168.0.16:7848> onSnapshotLoadDone, last_included_index: 50
+last_included_term: 6
+peers: "192.168.0.16:7848"
+
+
+2021-01-08 10:08:06,780 INFO Node <naming_persistent_service/192.168.0.16:7848> target priority value has changed from: 0, to: -1.
+
+2021-01-08 10:08:06,811 INFO Node <naming_persistent_service/192.168.0.16:7848> init, term=6, lastLogId=LogId [index=50, term=6], conf=192.168.0.16:7848, oldConf=.
+
+2021-01-08 10:08:06,813 INFO Node <naming_persistent_service/192.168.0.16:7848> start vote and grant vote self, term=6.
+
+2021-01-08 10:08:06,827 INFO Save raft meta, path=D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\meta-data, term=7, votedFor=192.168.0.16:7848, cost time=13 ms
+
+2021-01-08 10:08:06,828 INFO Node <naming_persistent_service/192.168.0.16:7848> become leader of group, term=7, conf=192.168.0.16:7848, oldConf=.
+
+2021-01-08 10:08:06,831 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2021-01-08 10:08:06,837 WARN RPC server is not started in RaftGroupService.
+
+2021-01-08 10:08:06,837 INFO Start the RaftGroupService successfully.
+
+2021-01-08 10:08:06,845 INFO onLeaderStart: term=7.
+
+2021-01-08 10:31:00,592 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_53.
+
+2021-01-08 10:31:00,592 INFO Renaming D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_53.
+
+2021-01-08 10:31:00,592 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_50.
+
+2021-01-08 10:38:12,523 INFO Connection disconnected: /192.168.0.16:50230
+
+2021-01-08 11:01:00,584 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_57.
+
+2021-01-08 11:01:00,584 INFO Renaming D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_57.
+
+2021-01-08 11:01:00,584 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_53.
+
+2021-01-08 11:31:00,589 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_63.
+
+2021-01-08 11:31:00,590 INFO Renaming D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_63.
+
+2021-01-08 11:31:00,590 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_57.
+
+2021-01-08 16:17:00,098 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2021-01-08 16:17:00,217 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2021-01-08 16:17:01,798 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2021-01-08 16:17:01,802 INFO The number of active nodes increment to 1.
+
+2021-01-08 16:17:01,970 INFO Starts FSMCaller successfully.
+
+2021-01-08 16:17:01,984 INFO Loading snapshot, meta=last_included_index: 63
+last_included_term: 7
+peers: "192.168.0.16:7848"
+.
+
+2021-01-08 16:17:02,053 INFO Node <naming_persistent_service/192.168.0.16:7848> onSnapshotLoadDone, last_included_index: 63
+last_included_term: 7
+peers: "192.168.0.16:7848"
+
+
+2021-01-08 16:17:02,053 INFO Node <naming_persistent_service/192.168.0.16:7848> target priority value has changed from: 0, to: -1.
+
+2021-01-08 16:17:02,076 INFO Node <naming_persistent_service/192.168.0.16:7848> init, term=7, lastLogId=LogId [index=63, term=7], conf=192.168.0.16:7848, oldConf=.
+
+2021-01-08 16:17:02,077 INFO Node <naming_persistent_service/192.168.0.16:7848> start vote and grant vote self, term=7.
+
+2021-01-08 16:17:02,089 INFO Save raft meta, path=D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\meta-data, term=8, votedFor=192.168.0.16:7848, cost time=10 ms
+
+2021-01-08 16:17:02,089 INFO Node <naming_persistent_service/192.168.0.16:7848> become leader of group, term=8, conf=192.168.0.16:7848, oldConf=.
+
+2021-01-08 16:17:02,093 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2021-01-08 16:17:02,095 WARN RPC server is not started in RaftGroupService.
+
+2021-01-08 16:17:02,095 INFO Start the RaftGroupService successfully.
+
+2021-01-08 16:17:02,103 INFO onLeaderStart: term=8.
+
+2021-01-08 16:33:10,769 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_64.
+
+2021-01-08 16:33:10,769 INFO Renaming D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_64.
+
+2021-01-08 16:33:10,770 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_63.
+
+2021-01-08 16:47:07,788 INFO Connection disconnected: /192.168.0.16:51567
+
+2021-01-08 17:33:10,765 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_66.
+
+2021-01-08 17:33:10,765 INFO Renaming D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_66.
+
+2021-01-08 17:33:10,765 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_64.
+

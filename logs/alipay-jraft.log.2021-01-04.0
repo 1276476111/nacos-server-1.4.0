@@ -1,0 +1,46 @@
+2021-01-04 09:57:01,269 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2021-01-04 09:57:01,389 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2021-01-04 09:57:03,005 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2021-01-04 09:57:03,009 INFO The number of active nodes increment to 1.
+
+2021-01-04 09:57:03,185 INFO Starts FSMCaller successfully.
+
+2021-01-04 09:57:03,198 INFO Loading snapshot, meta=last_included_index: 13
+last_included_term: 3
+peers: "192.168.0.16:7848"
+.
+
+2021-01-04 09:57:03,280 INFO Node <naming_persistent_service/192.168.0.16:7848> onSnapshotLoadDone, last_included_index: 13
+last_included_term: 3
+peers: "192.168.0.16:7848"
+
+
+2021-01-04 09:57:03,281 INFO Node <naming_persistent_service/192.168.0.16:7848> target priority value has changed from: 0, to: -1.
+
+2021-01-04 09:57:03,310 INFO Node <naming_persistent_service/192.168.0.16:7848> init, term=3, lastLogId=LogId [index=13, term=3], conf=192.168.0.16:7848, oldConf=.
+
+2021-01-04 09:57:03,314 INFO Node <naming_persistent_service/192.168.0.16:7848> start vote and grant vote self, term=3.
+
+2021-01-04 09:57:03,326 INFO Save raft meta, path=D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\meta-data, term=4, votedFor=192.168.0.16:7848, cost time=11 ms
+
+2021-01-04 09:57:03,327 INFO Node <naming_persistent_service/192.168.0.16:7848> become leader of group, term=4, conf=192.168.0.16:7848, oldConf=.
+
+2021-01-04 09:57:03,332 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2021-01-04 09:57:03,334 WARN RPC server is not started in RaftGroupService.
+
+2021-01-04 09:57:03,334 INFO Start the RaftGroupService successfully.
+
+2021-01-04 09:57:03,343 INFO onLeaderStart: term=4.
+
+2021-01-04 10:26:58,027 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_14.
+
+2021-01-04 10:26:58,028 INFO Renaming D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_14.
+
+2021-01-04 10:26:58,028 INFO Deleting snapshot D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_13.
+
+2021-01-04 10:27:09,075 INFO Connection disconnected: /192.168.0.16:58669
+

@@ -1,0 +1,46 @@
+2021-01-04 09:57:01,089 INFO raft peers changed: [Member{ip='192.168.0.16', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2021-01-04 09:57:01,127 INFO initializing Raft sub-system
+
+2021-01-04 09:57:01,127 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2021-01-04 09:57:01,134 INFO cache loaded, datum count: 0, current term: 0
+
+2021-01-04 09:57:01,134 INFO finish to load data from disk, cost: 7 ms.
+
+2021-01-04 09:57:01,146 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-01-04 09:57:03,277 INFO snapshot load from : D:\workspace\me\nacos-server-1.4.0\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_13\naming_persistent
+
+2021-01-04 09:57:03,284 INFO raft peers changed: [Member{ip='192.168.0.16', port=8848, state=UP, extendInfo={adWeight=0, lastRefreshTime=1609725423283, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@b7acd97, raftPort=7848, site=unknow, version=1.4.0, weight=1}}]
+
+2021-01-04 09:57:04,157 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-01-04 09:57:04,169 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-01-04 09:57:06,084 WARN start to close old raft protocol!!!
+
+2021-01-04 09:57:06,084 WARN stop old raft protocol task for notifier
+
+2021-01-04 09:57:06,084 WARN stop old raft protocol task for master task
+
+2021-01-04 09:57:06,084 WARN stop old raft protocol task for heartbeat task
+
+2021-01-04 09:57:06,084 WARN clean old cache datum for old raft
+
+2021-01-04 09:57:06,084 WARN start to close old raft protocol!!!
+
+2021-01-04 09:57:06,084 WARN stop old raft protocol task for notifier
+
+2021-01-04 09:57:06,084 WARN stop old raft protocol task for master task
+
+2021-01-04 09:57:06,084 WARN stop old raft protocol task for heartbeat task
+
+2021-01-04 09:57:06,084 WARN clean old cache datum for old raft
+
+2021-01-04 09:57:06,084 WARN start to move old raft protocol metadata
+
+2021-01-04 09:57:26,414 INFO add listener: com.alibaba.nacos.naming.iplist.public##SEATA_GROUP@@seata-server
+
+2021-01-04 09:57:45,562 INFO add listener: com.alibaba.nacos.naming.iplist.2619670c-d55b-407d-bda5-e0f510a37fe6##DEFAULT_GROUP@@stock-dev
+

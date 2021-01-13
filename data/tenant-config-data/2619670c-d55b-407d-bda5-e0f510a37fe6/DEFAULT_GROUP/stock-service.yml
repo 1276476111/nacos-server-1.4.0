@@ -1,0 +1,56 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3308/my_test?useUnicode=true&autoReconnect=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+    # driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+
+seata:
+  config:
+    type: nacos
+    nacos:
+      server-addr: 127.0.0.1:8848
+      group : "SEATA_GROUP"
+      namespace:
+      username: "nacos"
+      password: "nacos"
+
+# Mybatis
+mybatis-plus:
+  #外部化xml配置
+  #configure-location: classpath:mybatis-configure.xml
+  #指定外部化 MyBatis Properties 配置，通过该配置可以抽离配置，实现不同环境的配置部署
+  #configuration-properties: classpath:mybatis/configure.properties
+  #xml扫描，多个目录用逗号或者分号分隔（告诉 Mapper 所对应的 XML 文件位置）
+  mapper-locations: classpath*:mapper/**/*.xml
+  #扫描实体类
+  type-aliases-package: com.qsn.stock.test
+  #项目启动会检查xml配置存在(只在开发时候打开)
+  check-config-location: true
+  #SIMPLE：该执行器类型不做特殊的事情，为每个语句的执行创建一个新的预处理语句,REUSE：该执行器类型会复用预处理语句,BATCH：该执行器类型会批量执行所有的更新语句
+  default-executor-type: REUSE
+  
+seata:
+  enabled: true
+  application-id: seata-server
+  tx-service-group: DEFAULT_GROUP    #此处配置自定义的seata事务分组名称
+  enable-auto-data-source-proxy: true    #开启数据库代理
+  config:
+    type: nacos
+    nacos:
+      namespace:
+      server-addr: locaohost:8848
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: locaohost:8848
+      namespace:
+      username: nacos
+      password: nacos

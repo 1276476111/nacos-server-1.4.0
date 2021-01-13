@@ -1,0 +1,14 @@
+2021-01-06 10:14:55,317 INFO [dump-all-ok] seata.yml+DEFAULT_GROUP, 1609332772000, length=3, md5=47bce5c74f589f4867dbd57e9ca9f808
+
+2021-01-06 10:14:55,318 INFO [dump-all-ok] order-dev.yml+DEFAULT_GROUP, 1609395890000, length=656, md5=63094d4c6d0e63b24cf94de7ffd321fd
+
+2021-01-06 10:14:55,320 INFO [dump-all-ok] order-dev.yml+DEFAULT_GROUP, 1609725597000, length=572, md5=1c010d96274e8d90d7ec56cd9cb07c9e
+
+2021-01-06 10:14:55,321 INFO [dump-all-ok] stock-dev.yml+DEFAULT_GROUP, 1609404595000, length=2376, md5=56b252d2902ecd6c507b3fbec701cc5c
+
+2021-01-06 19:47:01,516 INFO [dump-all-ok] seata.yml+DEFAULT_GROUP, 1609332772000, length=3, md5=47bce5c74f589f4867dbd57e9ca9f808
+
+2021-01-06 19:47:01,517 INFO [dump-all-ok] order-dev.yml+DEFAULT_GROUP, 1609395890000, length=656, md5=63094d4c6d0e63b24cf94de7ffd321fd
+
+2021-01-06 19:47:01,519 INFO [dump-all-ok] stock-dev.yml+DEFAULT_GROUP, 1609899915000, length=2349, md5=c6395a90961b61f48da9809fbc9c6123
+

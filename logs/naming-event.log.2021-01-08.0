@@ -1,0 +1,224 @@
+2021-01-08 09:43:03,858 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 09:43:03,858 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 09:47:32,373 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 09:53:42,649 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 09:54:49,041 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610070872734
+
+2021-01-08 09:55:04,044 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 09:55:04,045 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 09:55:29,733 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 09:55:29,733 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 09:57:47,438 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2021-01-08 10:08:11,425 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.0.16:8091:unknown:default_1.0_true_false_default]
+
+2021-01-08 10:08:11,428 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.0.16:8091_true,
+
+2021-01-08 10:08:35,335 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 10:08:35,335 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 10:14:45,537 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 10:20:02,378 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 10:25:15,749 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610072698003
+
+2021-01-08 10:25:30,834 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 10:25:30,834 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 10:46:42,524 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 10:46:42,524 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 10:46:57,537 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610074002522
+
+2021-01-08 10:47:12,540 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 10:47:12,540 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 10:49:57,947 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 10:49:57,947 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 10:50:12,949 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610074197946
+
+2021-01-08 10:50:27,953 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 10:50:27,953 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 11:07:16,736 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.0.16:8091:unknown:default_1.0_true_false_default]
+
+2021-01-08 11:07:16,736 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-01-08 11:07:19,767 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-01-08 11:08:17,394 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.0.16:8091:unknown:default_1.0_true_false_default]
+
+2021-01-08 11:08:17,394 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.0.16:8091_true,
+
+2021-01-08 11:08:37,606 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 11:08:37,606 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 11:09:02,625 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610075322615
+
+2021-01-08 11:09:12,629 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 11:09:12,629 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 11:10:24,763 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.0.16:8091_true,
+
+2021-01-08 11:11:22,584 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1610075462693
+
+2021-01-08 11:11:37,587 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.0.16:8091:unknown:default_1.0_false_false_default]
+
+2021-01-08 11:11:37,587 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-01-08 11:11:55,372 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.0.16:8091:unknown:default_1.0_true_false_default]
+
+2021-01-08 11:11:55,372 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.0.16:8091_true,
+
+2021-01-08 11:12:20,853 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 11:12:20,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 11:12:45,868 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610075545859
+
+2021-01-08 11:12:55,871 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 11:12:55,871 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 11:14:03,065 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 11:14:03,065 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 11:14:20,882 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610075643065
+
+2021-01-08 11:14:35,901 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 11:14:35,901 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 11:16:04,974 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 11:16:04,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 11:16:20,916 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610075764974
+
+2021-01-08 11:16:35,921 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 11:16:35,921 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 11:21:57,031 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 11:21:57,031 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 11:22:58,755 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 11:28:12,133 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610076474311
+
+2021-01-08 11:28:27,150 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 11:28:27,150 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 11:38:41,547 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 11:38:41,547 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 13:49:09,109 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610084930781
+
+2021-01-08 13:49:24,117 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 13:49:24,117 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 13:50:34,411 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 13:50:34,411 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 13:51:51,953 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 13:57:40,873 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 13:57:40,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 14:00:38,531 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 14:02:42,626 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 16:17:45,217 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.0.16:8091:unknown:default_1.0_true_false_default]
+
+2021-01-08 16:17:45,220 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.0.16:8091_true,
+
+2021-01-08 16:18:51,480 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 16:18:51,480 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 16:19:06,422 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 16:19:06,422 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 16:37:32,756 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 16:39:05,080 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 16:45:01,943 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7100@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1610095485589
+
+2021-01-08 16:45:02,076 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610095484239
+
+2021-01-08 16:45:17,116 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 16:45:17,116 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2021-01-08 16:45:17,116 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 16:45:17,116 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 16:46:18,682 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 16:46:18,683 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 16:46:36,866 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 16:46:36,866 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 16:48:57,162 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7100@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1610095722090
+
+2021-01-08 16:49:00,237 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_false,
+
+2021-01-08 16:49:02,163 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610095723935
+
+2021-01-08 16:49:05,246 INFO service: DEFAULT_GROUP@@order-service {POS} {IP-ENABLED} valid: 192.168.0.16:7100@DEFAULT, region: unknown, msg: client beat ok
+
+2021-01-08 16:49:14,938 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_false,
+
+2021-01-08 16:49:19,946 INFO service: DEFAULT_GROUP@@stock-service {POS} {IP-ENABLED} valid: 192.168.0.16:7000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-01-08 16:50:57,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.0.16:7100_true,
+
+2021-01-08 17:30:22,960 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7100@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1610098206364
+
+2021-01-08 17:30:25,711 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
+2021-01-08 17:30:37,967 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 17:30:37,967 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2021-01-08 21:36:20,808 INFO {POS} {IP-DISABLED} valid: 192.168.0.16:7000@DEFAULT@DEFAULT_GROUP@@stock-service, region: unknown, msg: client timeout after 15000, last beat: 1610102949067
+
+2021-01-08 21:36:20,818 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-01-08 21:36:20,818 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 
+
+2021-01-08 21:36:22,897 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.16:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-08 21:36:22,897 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@stock-service, ips: 192.168.0.16:7000_true,
+
