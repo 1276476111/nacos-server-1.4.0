@@ -24,8 +24,8 @@ set BASE_DIR="%BASE_DIR:~0,-5%"
 set DEFAULT_SEARCH_LOCATIONS="classpath:/,classpath:/config/,file:./,file:./config/"
 set CUSTOM_SEARCH_LOCATIONS=file:%BASE_DIR%/conf/,%DEFAULT_SEARCH_LOCATIONS%
 
-rem set MODE="cluster"
-set MODE="standalone"
+set MODE="cluster"
+rem set MODE="standalone"
 set FUNCTION_MODE="all"
 set SERVER=nacos-server
 set MODE_INDEX=-1
